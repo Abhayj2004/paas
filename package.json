@@ -3,17 +3,15 @@
 {
   "name": "myapp",
   "version": "1.0.0",
-  "description": "A simple Node.js app deployed on Heroku",
+  "description": "A simple to-do list app using Node.js and MySQL",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.21.2"
-  },
-  "engines": {
-    "node": "14.x"
-  },
-  "author": "Your Name",
-  "license": "ISC"
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0"
+  }
 }
+
