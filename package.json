@@ -1,0 +1,19 @@
+
+
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "A simple Node.js app deployed on Heroku",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
